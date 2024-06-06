@@ -1,4 +1,42 @@
+/* Reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+   
+    
+}
+
+/*estilos*/
+
 .logo {
+    width: 50px;
+}
+
+.header {
     background-color: black;
+    height: 60px;
+    display: flex;
+    
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.list-header {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /*problemas alinear al final del header*/
+    justify-content: flex-end;
+    gap:20px;
 
 }
+
