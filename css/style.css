@@ -1,42 +1,65 @@
-/* Reset*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body{
+    font-family: Roboto;
 }
 
-ul {
-    list-style-type: none;
-   
-    
-}
 
-/*estilos*/
 
 .logo {
-    width: 50px;
+    width: 150px;
 }
 
 .header {
     background-color: black;
     height: 60px;
-    display: flex;
-    
+    padding:0 15px;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
     gap: 50px;
+    justify-content: space-between;
 }
 
 .list-header {
     color: white;
     display: flex;
     flex-direction: row;
-    /*problemas alinear al final del header*/
-    justify-content: flex-end;
     gap:20px;
-
 }
-
+main{
+    background-color: cornflowerblue;
+    height: 50vh;
+}
+footer{
+    background-color: ;
+}
+.head1{
+    font-size:90px;
+    color:white
+}
+.heroparrafo{
+    color: white;
+    font-size: 40px;
+}
+.beneficios{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right:64px;
+}
+.section-beneficios{
+    height: 50vh;
+}
+.beneficios-titulo{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+.hero{
+    background-image: url(../premium_dancer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
