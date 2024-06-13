@@ -1,5 +1,8 @@
+//sigue dando problemas el lateral, queda una zona blanca muy pequeña, como si se estuviera dimensionando el width del html y no se de donde.
+
+
 .main {
-    width: 100%;
+    // width: 100%;
     background-color: dodgerblue;
     background-size: 100%;
     background-image: url(/imagenes/premium_dancer.png);
@@ -7,15 +10,48 @@
     background-size: contain;
     background-repeat: no-repeat;
     font-family: $font-family;
-
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // probar despues si el display flex es necesario para alinear el main
  }
 
-.main__title {
-    font-size: 90px;
-    margin-right: 300px;
-    color: white;
+
+.main__title-1 {
+    width: 100%;
+    font-size: 68px;
+    padding: 30px 20px;
+    // margin-right: 300px;
+    color: $font-color-white;
+    font-weight: 100px;
+
+    // en 1024 el texto se queda tal y como esta en la imagen , a partir de ahi si la pantalla crece, la zona de "meses" sube, esto debe pasar? o se tiene que mantener esta estructura? arreglar con media queris?
+
+
+
 }
+
+.main__title-2 {
+    color: $font-color-white;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+.a-button {
+    font-size: 10px;
+    font-weight: bold;
+    color: $font-color-white;
+    background-color: green;
+    margin-left: 40px;
+    padding: 10px 40px;
+    border-radius: 30px;
+
+}
+
+.main__p{
+    color: $font-color-white;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 70%;
+}
+
+//No veo que la fuente sea la misma
+//redimensionar la letra?
