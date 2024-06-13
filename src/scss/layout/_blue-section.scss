@@ -1,11 +1,18 @@
 .main {
+    width: 100%;
     background-color: dodgerblue;
     background-size: 100%;
-    background-image: url(../public/imagenes/premium_dancer.png);
+    background-image: url(/imagenes/premium_dancer.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-}
+    font-family: $font-family;
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // probar despues si el display flex es necesario para alinear el main
+ }
 
 .main__title {
     font-size: 90px;
