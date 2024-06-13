@@ -112,9 +112,13 @@ a {
     background-color:dodgerblue;
     background-size: 100%;
     background-image: url(../public/imagenes/premium_dancer.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .main__title {
     font-size: 90px;
     margin-right: 300px;
+    color: white;
 }
 
