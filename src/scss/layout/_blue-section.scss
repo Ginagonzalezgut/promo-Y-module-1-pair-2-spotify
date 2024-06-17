@@ -1,15 +1,15 @@
-//sigue dando problemas el lateral, queda una zona blanca muy pequeña, como si se estuviera dimensionando el width del html y no se de donde.
-
 
 .main {
     // width: 100%;
-    background-color: dodgerblue;
+     background-color: dodgerblue;
     background-size: 100%;
     background-image: url(/imagenes/premium_dancer.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     font-family: $font-family;
+    display: flex;
+
  }
 
 
@@ -21,7 +21,9 @@
     color: $font-color-white;
     font-weight: 100px;
 
-    // en 1024 el texto se queda tal y como esta en la imagen , a partir de ahi si la pantalla crece, la zona de "meses" sube, esto debe pasar? o se tiene que mantener esta estructura? arreglar con media queris?
+    // en 1024 el texto se queda tal y como esta en la imagen , a partir de ahi si la pantalla crece, la zona de "meses" sube, esto debe pasar? o se tiene que mantener esta estructura? arreglar con media queris? existe el backgroun-image: none, podriamos quitar la imagen de fondo en dispositivo movil asi.
+
+    //mirar lo de limitar el tema del texto title-1 para que quede como en la imagen con min-width o max-width.
 
 
 
@@ -49,10 +51,6 @@
     color: $font-color-white;
     padding-top: 40px;
     padding-left: 30px;
-    padding-bottom: 30px;
+
     width: 70%;
 }
-
-//No veo que la fuente sea la misma
-//redimensionar la letra?
-

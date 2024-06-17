@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <section>
+        section logo + "registrate gratis para escuchar" + enlaces botones 
+    </section>  -->
+
+    <form action="https://dev.adalab.es/api/form " method="get">
+        <fieldset>
+            <legend>Regístrate con tu correo electronico</legend>
+                <label for="email">¿Cuál es tu correo electrónico?</label>
+                <input type="email" name="email" id="email" placeholder="Pon tu correo electrónico."/>
+                <label for="confirmacion-email">Confirma el correo electrónico</label>
+                <input type="email" name="email" id="confirmacion-email" placeholder="Vuelve a poner tu correo electrónico."/>
+                <label for="password">Crea una contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Crea una contraseña."/>
+                <label for="nickname">¿Cómo quieres que te llamemos?</label>
+                <input type="text" name="nickname" id="nickname" placeholder="Nombre de perfil."/>
+                <p>Esto aparece en tu perfil</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>¿Cuáll es tu fecha de nacimiento</legend>
+                <label for="day-date">Día</label>
+                <input type="number" name="day-date" id="day-date" placeholder="DD" />
+                <label for="month-date">Mes</label>
+                <select name="month-date" id="month-date" placeholder="Mes">
+                    <option value="Enero">Enero</option>
+                    <option value="Febrero">Febrero</option>
+                    <option value="Marzo">Marzo</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Mayo">Mayo</option>
+                    <option value="Junio">Junio</option>
+                    <option value="Julio">Julio</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Septiembre">Septiembre</option>
+                    <option value="Octubre">Octubre</option>
+                    <option value="Noviembre">Noviembre</option>
+                    <option value="Diciembre">Diciembre</option>
+                </select>
+                <label for="age-date">Año</label>
+                <input type="number" name="age-date" id="age-date" placeholder="AAA" />     
+        </fieldset>
+
+        <fieldset>
+            <legend>¿Cuál es tu género?</legend>
+            <label for="men">Hombre</label>
+            <input type="radio" name="genero" id="men" value="men"/>
+            <label for="woman">Mujer</label>
+            <input type="radio" name="genero" id="woman" value="woman"/>
+            <label for="non-binary">No binario</label>
+            <input type="radio" name="genero" id="non-binary" value="non-binary"/>
+        </fieldset>
+
+        <fieldset>  
+            <label for="condition1"></label>
+            <input type="checkbox" name="conditions" id="condition1">
+        </fieldset>
+
+
+
+
+        
+
+    </form>
+
+    
+</body>
+</html>
